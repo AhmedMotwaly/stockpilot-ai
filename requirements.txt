@@ -1,0 +1,5 @@
+# Initial dependencies for Phase 1 (Days 1 to 14).
+# Versions are pinned on Day 1 after installation. Add others when their phase begins.
+pandas
+numpy
+pytest
