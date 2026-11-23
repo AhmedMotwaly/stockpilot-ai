@@ -9,19 +9,19 @@ Status values: Not started, In progress, Done, Partial, Behind, Rest day.
 
 | Item | Value |
 |---|---|
-| Today's programme day | 0 (planning complete; environment checked 22 Nov 2026) |
-| Next exact task | Day 1: environment check, then first commit (DAILY_STUDY_PLAN.md, Day 1) |
-| Study days completed | 0 of 78 |
-| Hours completed | 0 of 351 |
+| Today's programme day | 1 (Done, 23 Nov 2026) |
+| Next exact task | Day 2: write `stock_status` returning OK, REORDER or STOCKOUT (DAILY_STUDY_PLAN.md, Day 2) |
+| Study days completed | 1 of 78 |
+| Hours completed | 4.5 of 351 |
 | Days behind plan | 0 |
-| Last commit | None yet |
+| Last commit | 27d8a58 docs: initial project documentation, licence and gitignore |
 | Open errors | None |
 
 ## Daily status
 
 | Day | Date | Phase | Status | Commit | Notes |
 |---|---|---|---|---|---|
-| 1 | Mon 23 Nov 2026 | 1 | Not started | | |
+| 1 | Mon 23 Nov 2026 | 1 | Done | 27d8a58 | Repo live; MIT licence; venv; gh installed |
 | 2 | Tue 24 Nov 2026 | 1 | Not started | | |
 | 3 | Wed 25 Nov 2026 | 1 | Not started | | |
 | 4 | Thu 26 Nov 2026 | 1 | Not started | | |
@@ -116,7 +116,7 @@ Status values: Not started, In progress, Done, Partial, Behind, Rest day.
 
 | ID | Deliverable | Due | Status | Evidence (file or link) | Notes |
 |---|---|---|---|---|---|
-| DEL-01 | Repository and workspace pushed to GitHub | Day 1 | Not started | | |
+| DEL-01 | Repository and workspace pushed to GitHub | Day 1 | Done | https://github.com/AhmedMotwaly/stockpilot-ai (commit 27d8a58) | |
 | DEL-02 | Data dictionary reviewed, questions logged | Day 6 | Not started | | |
 | DEL-03 | Baseline skills assessment recorded | Day 6 | Not started | | |
 | DEL-04 | Validation and cleaning scripts for the v1 files | Day 12 | Not started | | |
@@ -153,6 +153,17 @@ Status values: Not started, In progress, Done, Partial, Behind, Rest day.
 ## Session log
 
 Copy this block for each session. Newest on top.
+
+### Day 1, 23 Nov 2026
+- Topics studied: SCOR model (7 processes) and where inventory control sits; PowerShell basics; Python virtual environment; first Git commands; GitHub via gh CLI.
+- Exercises completed: 5 read-only terminal tasks (pwd, Get-ChildItem -Force, git log, git config --list, git show); first LEARNING_LOG.md entry.
+- Code developed (files): LICENSE, CHANGELOG.md, LEARNING_LOG.md, docs/lessons/day-01.md; DECISIONS_LOG.md (D-026), PROGRESS_TRACKER.md updated.
+- Tests run and result: none yet (test suite starts Day 8).
+- Problems encountered and fixes: interrupted venv rebuilt; gh PATH needs VS Code restart; stray mistyped file removed; git config read-vs-set syntax clarified.
+- Git commits (hash and message): 27d8a58 docs: initial project documentation, licence and gitignore; + chore commit for lesson notes and tracker.
+- Knowledge gaps: none logged.
+- Next exact task: Day 2 — write stock_status returning OK, REORDER or STOCKOUT.
+- Time spent (minutes): ~270.
 
 ```
 ### Day N, date
