@@ -9,12 +9,12 @@ Status values: Not started, In progress, Done, Partial, Behind, Rest day.
 
 | Item | Value |
 |---|---|
-| Today's programme day | 1 (Done, 23 Nov 2026) |
-| Next exact task | Day 2: write `stock_status` returning OK, REORDER or STOCKOUT (DAILY_STUDY_PLAN.md, Day 2) |
-| Study days completed | 1 of 78 |
-| Hours completed | 4.5 of 351 |
+| Today's programme day | 2 (Done, 24 Nov 2026) |
+| Next exact task | Day 3: supply chain block on inventory KPIs (turnover, days of inventory, availability, accuracy) (DAILY_STUDY_PLAN.md, Day 3) |
+| Study days completed | 2 of 78 |
+| Hours completed | 9.0 of 351 |
 | Days behind plan | 0 |
-| Last commit | 27d8a58 docs: initial project documentation, licence and gitignore |
+| Last commit | feat: add day 2 stock_status function and practice scripts |
 | Open errors | None |
 
 ## Daily status
@@ -22,7 +22,7 @@ Status values: Not started, In progress, Done, Partial, Behind, Rest day.
 | Day | Date | Phase | Status | Commit | Notes |
 |---|---|---|---|---|---|
 | 1 | Mon 23 Nov 2026 | 1 | Done | 27d8a58 | Repo live; MIT licence; venv; gh installed |
-| 2 | Tue 24 Nov 2026 | 1 | Not started | | |
+| 2 | Tue 24 Nov 2026 | 1 | Done | 021a9ed + feat commit | stock_status 6/6 PASS; 10 problems done |
 | 3 | Wed 25 Nov 2026 | 1 | Not started | | |
 | 4 | Thu 26 Nov 2026 | 1 | Not started | | |
 | 5 | Fri 27 Nov 2026 | 1 | Not started | | |
@@ -154,6 +154,17 @@ Status values: Not started, In progress, Done, Partial, Behind, Rest day.
 
 Copy this block for each session. Newest on top.
 
+### Day 2, 24 Nov 2026 (started evening of 23 Nov)
+- Topics studied: SKU, on hand, on order, reserved, available, inventory position, lead time, service level; reserved > on hand as a data-quality signal; censored demand after stockouts; Python variables, int/float, if/elif/else, for loops, positional vs keyword arguments.
+- Exercises completed: day02_conditions.py, day02_loops.py; 10 small problems (Groups 1 to 3, the last in day02_reading.py); Problem 8 explained back as a value trace.
+- Code developed (files): src/utils/stock_status.py, scripts/practice/day02_conditions.py, day02_loops.py, day02_reading.py, docs/lessons/day-02.md.
+- Tests run and result: stock_status.py 6 of 6 PASS (run 24 Nov 2026).
+- Problems encountered and fixes: SyntaxError from lesson text pasted into a .py file (removed); IndentationError "unexpected indent" in the Python shell, which made a loop result show 0 (fix: multi-line code goes in files).
+- Git commits (hash and message): 021a9ed docs: add D-027 logistics topics and D-028 AI-first coding rule; feat: add day 2 stock_status function and practice scripts.
+- Knowledge gaps: positional arguments (closed); reading multi-line code (open, see table).
+- Next exact task: Day 3 — inventory KPIs supply chain block, then functions, lists, dictionaries and the csv module.
+- Time spent (minutes): not recorded exactly (split across two evenings).
+
 ### Day 1, 23 Nov 2026
 - Topics studied: SCOR model (7 processes) and where inventory control sits; PowerShell basics; Python virtual environment; first Git commands; GitHub via gh CLI.
 - Exercises completed: 5 read-only terminal tasks (pwd, Get-ChildItem -Force, git log, git config --list, git show); first LEARNING_LOG.md entry.
@@ -182,11 +193,16 @@ Copy this block for each session. Newest on top.
 
 | Date | Gap | Planned fix | Closed on |
 |---|---|---|---|
+| 24 Nov 2026 | Did not know which argument each number in `stock_status(200, 50, 0, 100)` matched | Explained positional vs keyword arguments and `help()` | 24 Nov 2026 |
+| 24 Nov 2026 | Multi-line scripts feel like hard-to-remember algorithms | Four-pattern reading method (Store, Decide, Repeat, Running total); read the print line first; one predict-then-run reading exercise each day | |
+| 24 Nov 2026 | Exact boundary (`<=`) missed when predicting by hand | Check the "at" case in every prediction | |
 
 ## Problems and fixes
 
 | Date | Problem | Cause | Fix |
 |---|---|---|---|
+| 23 Nov 2026 | SyntaxError in day02_conditions.py | Lesson text pasted into the .py file | Kept only code and comments |
+| 24 Nov 2026 | IndentationError: unexpected indent; loop total showed 0 | Spaces at the `>>>` prompt; the loop never ran | Run multi-line code from a file, not the shell |
 
 ## Weekly assessments
 
