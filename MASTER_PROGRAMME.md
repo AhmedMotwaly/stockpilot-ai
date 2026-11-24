@@ -114,7 +114,7 @@ qualify anyone for senior planning or AI engineering roles on its own.
 
 **Technical skills:** Time series in pandas, rolling windows, chronological split, Plotly, report generation.
 
-**Supply chain topics:** Forecasting methods, MAE, WAPE, bias, business impact of error, supplier lead times, root cause, exceptions.
+**Supply chain topics:** Forecasting methods, MAE, WAPE, bias, business impact of error, supplier lead times, procurement TCO and supplier scorecards, root cause, exceptions.
 
 **Deliverables:**
 
@@ -132,7 +132,7 @@ qualify anyone for senior planning or AI engineering roles on its own.
 
 **Technical skills:** Streamlit, app structure, SQLite access layer, logging, APIs, environment variables, Pydantic, structured outputs, prompts.
 
-**Supply chain topics:** ERP and MRP basics, planning reviews, briefings, evidence-based reporting.
+**Supply chain topics:** ERP and MRP basics, planning reviews, returns and reverse logistics, briefings, evidence-based reporting.
 
 **Deliverables:**
 
@@ -149,7 +149,7 @@ qualify anyone for senior planning or AI engineering roles on its own.
 
 **Technical skills:** Tool calling, JSON schemas, agent loop, limits, approval state, audit log, evaluation, prompt injection.
 
-**Supply chain topics:** Replenishment controls, approval in purchasing, audit trails, risk and resilience.
+**Supply chain topics:** Replenishment controls, transport modes and freight, Incoterms 2020, customs documents and landed cost, approval in purchasing, audit trails, risk and resilience.
 
 **Deliverables:**
 

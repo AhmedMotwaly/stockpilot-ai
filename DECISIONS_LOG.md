@@ -33,6 +33,8 @@ references the old one. Related: [MASTER_PROGRAMME.md](MASTER_PROGRAMME.md), [RI
 | D-024 | 22 Nov 2026 | Days 33 (25 Dec 2026) and 40 (1 Jan 2027) stay study days | User answer | Approved |
 | D-025 | 22 Nov 2026 | Added CLAUDE.md so Claude Code reads the programme rules at the start of every session | Claude Code loads CLAUDE.md automatically; keeps lessons consistent across sessions | Approved with this log |
 | D-026 | 23 Nov 2026 | Repository licence is MIT. LICENSE file added at the project root on Day 1 | Simple, open, portfolio-friendly; anyone may reuse the code with attribution. Closes O-003 | Approved by learner 23 Nov 2026 |
+| D-027 | 23 Nov 2026 | Five 45-minute supply chain blocks changed to cover logistics and procurement: Day 51 TCO and supplier scorecards; Day 62 returns and reverse logistics; Day 72 transport modes and freight; Day 73 Incoterms 2020; Day 74 customs documents and landed cost. Build, technical and exercise blocks unchanged. Total hours unchanged | Daily plan was light on logistics; these topics come up in interviews. Replaced blocks repeated topics already covered in Phases 3 and 4 | Approved |
+| D-028 | 24 Nov 2026 | AI-first coding: Claude Code writes all Python. The learner directs, runs, reads, tests and explains each file. SQL queries and Excel formulas stay hand-written. Replaces the rule that the learner writes 5 to 10 lines of core logic | Writing Python from scratch was too hard and slowed progress. Analyst interviews still test SQL and Excel live, so those stay manual | Approved by learner 24 Nov 2026 |
 
 ## Open items
 

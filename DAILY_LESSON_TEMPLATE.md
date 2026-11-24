@@ -70,4 +70,5 @@ lesson notes as `docs/lessons/day-NN.md`. After the lesson, update [PROGRESS_TRA
 6. Exercise before solution. Understanding checked.
 7. When a command fails, stop and troubleshoot before continuing.
 8. Never claim code was tested unless it ran.
-9. In key places, the learner writes the core logic (5 to 10 lines) before seeing a solution.
+9. Claude Code writes the Python. The learner directs, runs, reads, tests and explains it (D-028).
+10. The learner writes short SQL queries and Excel formulas by hand, with hints first.

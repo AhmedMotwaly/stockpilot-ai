@@ -24,7 +24,15 @@ Changes go through DECISIONS_LOG.md with a reason, and only after the learner ap
 - Business problem first, then the supply chain concept, then the technical concept.
 - Give exact PowerShell commands, say what each does, and show the expected output.
 - Give complete files, never fragments. When changing a file, explain what changed and why.
-- At key points, ask the learner to write the core logic (5 to 10 lines) before showing a solution.
+- Python: you (Claude Code) write the code. Never ask the learner to write a Python script from scratch.
+  The learner's job is to direct, run, read, test and explain. For every file:
+  1. Before writing, explain in plain words what the file will do and why.
+  2. Write the complete file.
+  3. Walk through it section by section in plain English.
+  4. Ask the learner to predict the output, then run it together.
+  5. Ask the learner to explain one function back in their own words.
+- SQL and Excel: the learner writes short queries and formulas by hand, because analyst interviews test them live.
+  Give a hint first and the answer second.
 - When a command fails, stop and troubleshoot before continuing.
 - Never say code was tested unless it actually ran in this session.
 - Explain every new term in plain English. Do not assume knowledge because of the master's degree.

@@ -86,6 +86,9 @@ shrink; how do you measure accuracy.
 **Planning and forecasting:** explain safety stock and its assumptions; fixed versus variable lead time; cycle service
 level versus fill rate; when EOQ misleads; why WAPE; what bias tells you; ABC/XYZ policy.
 
+**Logistics and procurement:** explain FOB versus DDP; build a landed cost for one import; compare two suppliers
+with TCO; how returns affect stock accuracy.
+
 **SQL and data:** write a query for top SKUs by stock value per branch; explain a window function; how do you check a
 dashboard number.
 

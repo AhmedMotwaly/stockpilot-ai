@@ -661,7 +661,7 @@ No study. Optional: catch up on unfinished tasks or update PROGRESS_TRACKER.md.
 
 | Block | Minutes | Task |
 |---|---|---|
-| Supply chain | 45 | Supplier lead-time performance |
+| Supply chain | 45 | Procurement: total cost of ownership (TCO) and supplier scorecards. Worked example: compare 3 suppliers on price, freight, lead time and quality (reference: Supply-Chain-Catch-Up-Map.docx, domain 3) |
 | Technical | 75 | Date arithmetic in pandas |
 | Build | 90 | Lead-time and on-time metrics |
 | Exercises and documentation | 30 | Hand-check BR-17 |
@@ -807,7 +807,7 @@ No study. Optional: catch up on unfinished tasks or update PROGRESS_TRACKER.md.
 
 | Block | Minutes | Task |
 |---|---|---|
-| Supply chain | 45 | Exception review routine |
+| Supply chain | 45 | Returns and reverse logistics: return reasons, inspection, disposition (restock, refurbish, scrap), effect on stock accuracy (reference: Catch-Up Map, domain 7) |
 | Technical | 75 | Error handling and logging |
 | Build | 90 | Exceptions page and logging configuration |
 | Exercises and documentation | 30 | Saturday SQL and Excel practice inside this block: SQL on proposal data; Excel check of 3 KPIs |
@@ -931,7 +931,7 @@ No study. Optional: catch up on unfinished tasks or update PROGRESS_TRACKER.md.
 
 | Block | Minutes | Task |
 |---|---|---|
-| Supply chain | 45 | What a manager needs from an inventory summary |
+| Supply chain | 45 | Transport modes and freight: road, rail, sea, air, parcel; FTL vs LTL; FCL vs LCL; cost and speed trade-offs (reference: Catch-Up Map, domain 6) |
 | Technical | 75 | Wrapping Python functions as tools |
 | Build | 90 | Tools get_inventory_summary and classify_inventory |
 | Exercises and documentation | 30 | Compare tool output with direct function output |
@@ -945,7 +945,7 @@ No study. Optional: catch up on unfinished tasks or update PROGRESS_TRACKER.md.
 
 | Block | Minutes | Task |
 |---|---|---|
-| Supply chain | 45 | Using forecasts in decisions |
+| Supply chain | 45 | Incoterms 2020: EXW, FCA, FOB, CIF, DAP, DDP; who pays and where risk passes (ICC free lesson: https://academy.iccwbo.org/incoterms-free-lesson-registration/) |
 | Technical | 75 | Argument validation and limits |
 | Build | 90 | Tool forecast_demand |
 | Exercises and documentation | 30 | Try a horizon above the limit |
@@ -959,7 +959,7 @@ No study. Optional: catch up on unfinished tasks or update PROGRESS_TRACKER.md.
 
 | Block | Minutes | Task |
 |---|---|---|
-| Supply chain | 45 | Risk and excess from the planner's view |
+| Supply chain | 45 | Customs and landed cost: commercial invoice, packing list, bill of lading, customs value, duty, import VAT; one landed-cost example (EU TARIC: https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp) |
 | Technical | 75 | Ranking and top-N logic |
 | Build | 90 | Tools identify_stockout_risk and identify_excess_inventory |
 | Exercises and documentation | 30 | Check the top 5 against the planning engine |
